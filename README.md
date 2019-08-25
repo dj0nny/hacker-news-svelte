@@ -67,3 +67,10 @@ Then, from within your project folder:
 npm run build
 surge public
 ```
+### Endpoints
+
+* https://api.hackernews.io/news?page=1
+* https://api.hackernews.io/newest?page=1
+* https://api.hackernews.io/show?page=1
+* https://api.hackernews.io/ask?page=1
+* https://api.hackernews.io/jobs?page=1
