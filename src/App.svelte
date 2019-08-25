@@ -1,11 +1,29 @@
 <script>
-	export let name;
+import { Route, Router } from 'svero';
+import Header from './components/Header.svelte';
+import News from './pages/News.svelte';
+import Newest from './pages/Newest.svelte';
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+:global(body) {
+	background: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#app-container {
+	background: rgb(246, 246, 239);
+	width: 80%;
+	margin: auto;
+}
+
 </style>
 
-<h1>Hello {name}!</h1>
+<div id="app-container">
+	<Header />
+	<Router>
+		<Route path="*" component={News} ></Route>
+		<Route path="/newest" component={Newest} ></Route>
+	</Router>
+</div>
+
