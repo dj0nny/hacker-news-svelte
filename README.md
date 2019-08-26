@@ -1,76 +1,65 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# hacker-news-svelte
 
----
+> Hacker News client built with Svelte.js
 
-# svelte app
+## Getting started
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+### Prerequisites  
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+For this project you need [__Node__](https://nodejs.org/en/) installed on your machine with [__Npm__](https://www.npmjs.com/) or [__Yarn__](https://yarnpkg.com).
 
+### Installation
+
+You can clone this repository using __Git__:
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+git clone https://github.com/dj0nny/space-v.git
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
+Or download the repository [here](https://github.com/dj0nny/space-v/archive/develop.zip).
 
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd hacker-news-svelte
 npm install
+# OR
+yarn install
 ```
 
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev
+# OR
+yarn dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 
-## Deploying to the web
+## Deploying
 
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
+Run:
 
 ```bash
 npm run build
-surge public
+# OR
+yarn build
 ```
-### Endpoints
+for creating an optimized version of this web app.
+
+## API Endpoints
 
 * https://api.hackernews.io/news?page=1
 * https://api.hackernews.io/newest?page=1
 * https://api.hackernews.io/show?page=1
 * https://api.hackernews.io/ask?page=1
 * https://api.hackernews.io/jobs?page=1
+
+## Built with ❤️ using:
+
+* [Svelte.js](https://svelte.dev/) - A Javascript framework for *cybernetically enhanced web apps*
+
+## Contributing
+
+Pull Requests for adding features ⇄ and ★ are welcome 😎
