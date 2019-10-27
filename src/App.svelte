@@ -1,9 +1,6 @@
 <script>
 import { Route, Router } from 'svero';
 
-export let router = {};
-console.log(router);
-
 import Header from './components/Header.svelte';
 import Index from './pages/Index.svelte';
 import Newest from './pages/Newest.svelte';
@@ -19,6 +16,7 @@ import Newest from './pages/Newest.svelte';
 	background: rgb(246, 246, 239);
 	width: 80%;
 	margin: auto;
+	counter-reset: news;
 }
 
 </style>
