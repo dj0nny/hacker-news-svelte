@@ -1,43 +1,43 @@
 # hacker-news-svelte
 
-> Hacker News client built with Svelte.js
+[![npm version](https://badge.fury.io/js/svelte.svg)](https://badge.fury.io/js/svelte)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/dj0nny/hacker-news-svelte#readme)
 
-## Getting started
+> Hacker news clone built with Svelte
 
-### Prerequisites  
+## 🚀 Getting started
 
-For this project you need [__Node__](https://nodejs.org/en/) installed on your machine with [__Npm__](https://www.npmjs.com/) or [__Yarn__](https://yarnpkg.com).
+### Download
 
-### Installation
-
-You can clone this repository using __Git__:
+Clone the repository using **Git**:
 ```bash
-git clone https://github.com/dj0nny/space-v.git
+git clone https://github.com/dj0nny/hacker-news-svelte.git
 ```
+Or download [here](https://github.com/dj0nny/hacker-news-svelte/archive/develop.zip).
 
-Or download the repository [here](https://github.com/dj0nny/space-v/archive/develop.zip).
+### Install
 
-Install the dependencies...
+For installing the dependencies run:
 
-```bash
+```sh
 cd hacker-news-svelte
 npm install
 # OR
 yarn install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+### Usage
 
-```bash
+For running the Rollup development server:
+
+```sh
 npm run dev
 # OR
 yarn dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying
+### Deploying
 
 Run:
 
@@ -48,18 +48,39 @@ yarn build
 ```
 for creating an optimized version of this web app.
 
-## API Endpoints
+## Todo
 
-* https://api.hackernews.io/news?page=1
-* https://api.hackernews.io/newest?page=1
-* https://api.hackernews.io/show?page=1
-* https://api.hackernews.io/ask?page=1
-* https://api.hackernews.io/jobs?page=1
+- [x] Generate the React app using `create-react-app`
+- [x] Clean up the folder
+- [x] Add router
+- [ ] Add and configure the store
+- [ ] Fetch the **news** from the API and create the components
+- [ ] Add pagination
+- [ ] Fetch the **news comments** from the API and create the components
+- [ ] Create the routes for the pages
+- [ ] Fetching from API and creating components for:
+  - [ ] newest
+  - [ ] ask
+  - [ ] show
+  - [ ] jobs
+- [ ] Deploy on [Netlify](https://netlify.com)
 
-## Built with ❤️ using:
+## Author
 
-* [Svelte.js](https://svelte.dev/) - A Javascript framework for *cybernetically enhanced web apps*
+👤 **Francesco Giambruno**
 
-## Contributing
+* Twitter: [@Dj0nny96](https://twitter.com/Dj0nny96)
+* Github: [@dj0nny](https://github.com/dj0nny)
 
-Pull Requests for adding features ⇄ and ★ are welcome 😎
+## Built with :heart: using
+* [Svelte.js](https://svelte.dev) - _Cybernetically enhanced web apps_
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/dj0nny/hacker-news-svelte/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!

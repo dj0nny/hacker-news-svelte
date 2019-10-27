@@ -13,9 +13,9 @@ import { Link } from 'svero';
   <ul class="menu">
     <li class="menu-item"><Link href="/news">news</Link></li> |
     <li class="menu-item"><Link href="/newest">newest</Link></li> |
-    <!-- <li class="menu-item"><Link href="/">show</Link></li> |
+    <li class="menu-item"><Link href="/">show</Link></li> |
     <li class="menu-item"><Link href="/">ask</Link></li> |
-    <li class="menu-item"><Link href="/">jobs</Link></li> -->
+    <li class="menu-item"><Link href="/">jobs</Link></li>
   </ul>
 </div>
 

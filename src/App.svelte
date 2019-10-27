@@ -1,7 +1,11 @@
 <script>
 import { Route, Router } from 'svero';
+
+export let router = {};
+console.log(router);
+
 import Header from './components/Header.svelte';
-import News from './pages/News.svelte';
+import Index from './pages/Index.svelte';
 import Newest from './pages/Newest.svelte';
 </script>
 
@@ -22,8 +26,8 @@ import Newest from './pages/Newest.svelte';
 <div id="app-container">
 	<Header />
 	<Router>
-		<Route path="*" component={News} ></Route>
-		<Route path="/newest" component={Newest} ></Route>
+		<Route path="/news" component={Index} />
+		<Route path="/newest" component={Newest} />
 	</Router>
 </div>
 
