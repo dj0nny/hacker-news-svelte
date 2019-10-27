@@ -53,8 +53,7 @@ for creating an optimized version of this web app.
 - [x] Generate the React app using `create-react-app`
 - [x] Clean up the folder
 - [x] Add router
-- [ ] Add and configure the store
-- [ ] Fetch the **news** from the API and create the components
+- [x] Fetch the **news** from the API and create the components
 - [ ] Add pagination
 - [ ] Fetch the **news comments** from the API and create the components
 - [ ] Create the routes for the pages
