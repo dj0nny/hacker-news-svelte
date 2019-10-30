@@ -4,6 +4,9 @@ import { Route, Router } from 'svero';
 import Header from './components/Header.svelte';
 import Index from './pages/Index.svelte';
 import Newest from './pages/Newest.svelte';
+import Show from './pages/Show.svelte';
+import Ask from './pages/Ask.svelte';
+import Jobs from './pages/Jobs.svelte';
 </script>
 
 <style>
@@ -26,6 +29,9 @@ import Newest from './pages/Newest.svelte';
 	<Router>
 		<Route path="/news" component={Index} />
 		<Route path="/newest" component={Newest} />
+		<Route path="/show" component={Show} />
+		<Route path="/ask" component={Ask} />
+		<Route path="/jobs" component={Jobs} />
 	</Router>
 </div>
 
