@@ -1,6 +1,7 @@
 # hacker-news-svelte
 
 [![npm version](https://badge.fury.io/js/svelte.svg)](https://badge.fury.io/js/svelte)
+[![Build Status](https://travis-ci.org/dj0nny/hacker-news-svelte.svg?branch=develop)](https://travis-ci.org/dj0nny/hacker-news-svelte)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/dj0nny/hacker-news-svelte#readme)
 
@@ -56,12 +57,12 @@ for creating an optimized version of this web app.
 - [x] Fetch the **news** from the API and create the components
 - [ ] Add pagination
 - [ ] Fetch the **news comments** from the API and create the components
-- [ ] Create the routes for the pages
-- [ ] Fetching from API and creating components for:
-  - [ ] newest
-  - [ ] ask
-  - [ ] show
-  - [ ] jobs
+- [x] Create the routes for the pages
+- [x] Fetching from API and creating components for:
+  - [x] newest
+  - [x] ask
+  - [x] show
+  - [x] jobs
 - [ ] Deploy on [Netlify](https://netlify.com)
 
 ## Author
