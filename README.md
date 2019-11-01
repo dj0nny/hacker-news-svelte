@@ -51,7 +51,7 @@ for creating an optimized version of this web app.
 
 ## Todo
 
-- [x] Generate the React app using `create-react-app`
+- [x] Generate the Svelte app
 - [x] Clean up the folder
 - [x] Add router
 - [x] Fetch the **news** from the API and create the components
