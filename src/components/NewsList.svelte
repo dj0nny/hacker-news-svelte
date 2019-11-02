@@ -1,4 +1,6 @@
 <script>
+import { Link } from 'svero'
+
 export let list;
 </script>
 
@@ -46,7 +48,7 @@ div.subtext {
     <a href={item.url} target="_blank" class="title">{ item.title }</a>
     <span class="domain">({ item.domain })</span>
     <div class="subtext">
-      { item.points } points by { item.user } { item.time_ago } | { item.comments_count } comments
+      { item.points } points by { item.user } { item.time_ago } | <Link href="/comment/{item.id}"> { item.comments_count } comments </Link> 
     </div>
   </div>
 {/each}

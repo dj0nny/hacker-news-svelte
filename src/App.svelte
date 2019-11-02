@@ -7,6 +7,7 @@ import Newest from './pages/Newest.svelte';
 import Show from './pages/Show.svelte';
 import Ask from './pages/Ask.svelte';
 import Jobs from './pages/Jobs.svelte';
+import Comment from './components/Comments.svelte';
 </script>
 
 <style>
@@ -32,6 +33,7 @@ import Jobs from './pages/Jobs.svelte';
 		<Route path="/show" component={Show} />
 		<Route path="/ask" component={Ask} />
 		<Route path="/jobs" component={Jobs} />
+		<Route path="/comment/:postId" component={Comment} />
 	</Router>
 </div>
 
