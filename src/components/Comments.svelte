@@ -1,14 +1,6 @@
 <script>
-export let router = {}
-
-let promise = getComments();
-
-async function getComments() {
-  const res = await fetch(`https://api.hackernews.io/item/${router.params.postId}`);
-  const commentsList = await res.json();
-  console.log(commentsList);
-  return commentsList;
-}
+import Comments from './Comments.svelte';
+export let data;
 </script>
 
 <style>
@@ -40,15 +32,12 @@ span.comment-meta {
 }
 </style>
 
-{#await promise}
-  <p>loading...</p>
-{:then commentsList}
 <div class="comment">
-  <span class="comment-meta">{ commentsList.user } { commentsList.time_ago }</span>
-  <div class="comment-body">{commentsList.content}</div>
+  <span class="comment-meta">{ data.user } { data.time_ago }</span>
+  <div class="comment-body">{@html data.content }</div>
   <div class="nested">
-    <!-- <Comment v-for="comment in data.comments" :key="comment.id" :data="comment" /> -->
+    {#each data.comments as comment}
+      <Comments data={comment} />
+    {/each}
   </div>
 </div>
-{/await}
-
